@@ -33,6 +33,12 @@ public class PlayerMovement : NetworkBehaviour
 
         direction = new Vector3(horMov,0,verMov);
     }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.blue;
+        //Gizmos.DrawRay(transform.position, direction);
+        Gizmos.DrawCube(transform.position, new Vector3(8, 8, 8));
+    }
 
     // Update is called once per frame
     void FixedUpdate()

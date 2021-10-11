@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class NavPlayerMovement : MonoBehaviour
 {
-    public float speed = 10.0f;
+    public float speed = 80.0f;
     public float rotationSpeed = 100.0f;
+
+    public delegate void DropHive(Vector3 pos);
+    public static event DropHive DroppedHive;
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            DroppedHive?.Invoke(transform.position + (transform.forward * 10));
+        }
         // Get the horizontal and vertical axis.
         // By default they are mapped to the arrow keys.
         // The value is in the range -1 to 1

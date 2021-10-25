@@ -6,9 +6,18 @@ public class NavPlayerMovement : MonoBehaviour
 {
     public float speed = 80.0f;
     public float rotationSpeed = 100.0f;
+    Rigidbody rgBody = null;
+    private Animator anim;
 
     public delegate void DropHive(Vector3 pos);
     public static event DropHive DroppedHive;
+
+    private void Start()
+    {
+        rgBody = GetComponent<Rigidbody>();
+        anim = GetComponentInChildren<Animator>();
+    }
+    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -24,6 +33,8 @@ public class NavPlayerMovement : MonoBehaviour
         // Make it move 10 meters per second instead of 10 meters per frame...
         translation *= Time.deltaTime;
         rotation *= Time.deltaTime;
+
+        anim.SetFloat("speed", translation);
 
         // Move translation along the object's z-axis
         transform.Translate(0, 0, translation);

@@ -42,4 +42,15 @@ public class NavPlayerMovement : MonoBehaviour
         // Rotate around our y-axis
         transform.Rotate(0, rotation, 0);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.CompareTag("Hazard"))
+        {
+            anim.SetTrigger("died");
+        } else
+        {
+            anim.SetTrigger("twitchLeftEar");
+        }
+    }
 }

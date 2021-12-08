@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RiverWaterMat
+  m_Shader: {fileID: -6465566751694194690, guid: 3596031913d35b640989ce644742cf83, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1385e06b6ebb4e848bb68bb81a271265: 0.6
+    - Vector1_25ff504f8b25467eaea8271b281e23c5: 1
+    - Vector1_2f0a21ce37ab4e1c8abe2136e97c5e8a: 0.5
+    - Vector1_692cb84731484dad8509897b6922a712: 0.3
+    - Vector1_754502bbfbfe4925b917b86936fb3c80: 0.8
+    - Vector1_a606bdaa99494b3f9db0fcd80abfb24c: 1
+    - Vector1_ccb1ddd88391472fbf7286112ce28dc0: 6
+    - Vector1_d4bce961c58641bdafd646fbbff28554: 2.55
+    - Vector1_fc83ddb49d3a4e06a700405dd8a09454: 1
+    m_Colors:
+    - Color_06a3ed92c84d4f11bdd5b7f2cd1d3609: {r: 0.5849056, g: 0.5788441, b: 0.30072978, a: 0}
+    - Color_681b21f6f88f4037a25cd3e565b91345: {r: 0.20630115, g: 0.4875062, b: 0.7169812, a: 0}
+    - Color_7b9a384c75fd49289eab0c9113498bf3: {r: 0.18178178, g: 0.4056604, b: 0.23235002, a: 0}
+    - Color_fe23a98ce9be4ea2bd98df717e5b7d65: {r: 0.19339615, g: 0.6914983, b: 0.7735849, a: 0}
+    - Vector2_2b9a6c8e528847aea83bc7442f454884: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - Vector2_78755e55f5d84d8b8c73dcaa0f4d95f0: {r: 0.3, g: 0.5, b: 0, a: 0}
+  m_BuildTextureStacks: []

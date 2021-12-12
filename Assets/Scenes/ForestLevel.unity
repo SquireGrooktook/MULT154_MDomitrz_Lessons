@@ -108,7 +108,7 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
-    agentSlope: 45
+    agentSlope: 35
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
@@ -441,7 +441,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160842461}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.3, y: 3.945569, z: -18.1}
+  m_LocalPosition: {x: -13.3, y: 1, z: -18.1}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 1729162289}
@@ -1241,7 +1241,7 @@ Transform:
   m_GameObject: {fileID: 439091323}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.3, z: 16.1}
-  m_LocalScale: {x: 120, y: 1, z: 50}
+  m_LocalScale: {x: 240, y: 1, z: 70}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
@@ -2584,7 +2584,7 @@ Terrain:
   m_DrawInstanced: 1
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 594ea882c5a793440b60ff72d896021e, type: 2}
+  m_MaterialTemplate: {fileID: 2100000, guid: fd77eb6d95cb5f44c8299085e5a11f2e, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -4353,7 +4353,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400026, guid: 0962bdca27eaca34aaa15f7fdf608faf, type: 3}
   m_PrefabInstance: {fileID: 357902030}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &371451516653675305
+--- !u!1001 &8960134077205370830
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -4362,7 +4362,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4610907151217162079, guid: 699779e4ceff63848a7ce75cc22a38a4, type: 3}
       propertyPath: m_Name
-      value: PineTree
+      value: PineTree Variant
       objectReference: {fileID: 0}
     - target: {fileID: 9058865605303368014, guid: 699779e4ceff63848a7ce75cc22a38a4, type: 3}
       propertyPath: m_RootOrder

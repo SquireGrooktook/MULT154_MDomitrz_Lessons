@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!65 &3809973363466297882
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4610907151217162079}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5565538, y: 7.4020367, z: 1.8886595}
+  m_Center: {x: -0.33729744, y: 11.006395, z: 0.14404619}
 --- !u!1001 &1044672946452580443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7,13 +20,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3084115816200769057, guid: a140b1d5bf2d80546bec14e6391249b6, type: 3}
+      propertyPath: m_Size.x
+      value: 2.609909
+      objectReference: {fileID: 0}
+    - target: {fileID: -3084115816200769057, guid: a140b1d5bf2d80546bec14e6391249b6, type: 3}
+      propertyPath: m_Size.y
+      value: 7.4020367
+      objectReference: {fileID: 0}
+    - target: {fileID: -3084115816200769057, guid: a140b1d5bf2d80546bec14e6391249b6, type: 3}
+      propertyPath: m_Size.z
+      value: 2.0403562
+      objectReference: {fileID: 0}
+    - target: {fileID: -3084115816200769057, guid: a140b1d5bf2d80546bec14e6391249b6, type: 3}
+      propertyPath: m_Center.x
+      value: -0.57655996
+      objectReference: {fileID: 0}
+    - target: {fileID: -3084115816200769057, guid: a140b1d5bf2d80546bec14e6391249b6, type: 3}
+      propertyPath: m_Center.z
+      value: -1.005821
+      objectReference: {fileID: 0}
     - target: {fileID: 3567509638496599812, guid: a140b1d5bf2d80546bec14e6391249b6, type: 3}
       propertyPath: m_Name
-      value: PineTree
+      value: PineTree Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8205091558734868424, guid: a140b1d5bf2d80546bec14e6391249b6, type: 3}
       propertyPath: m_SelectedEditorRenderState
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8343167654832910613, guid: a140b1d5bf2d80546bec14e6391249b6, type: 3}
       propertyPath: m_RootOrder
@@ -61,3 +94,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a140b1d5bf2d80546bec14e6391249b6, type: 3}
+--- !u!1 &4610907151217162079 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3567509638496599812, guid: a140b1d5bf2d80546bec14e6391249b6, type: 3}
+  m_PrefabInstance: {fileID: 1044672946452580443}
+  m_PrefabAsset: {fileID: 0}

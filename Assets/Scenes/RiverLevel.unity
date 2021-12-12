@@ -1114,7 +1114,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1192759978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1155,8 +1155,8 @@ MonoBehaviour:
   m_PlayerPrefab: {fileID: 8896385624062601309, guid: de48852770c9aff479070484d575cfc8, type: 3}
   m_AutoCreatePlayer: 1
   m_PlayerSpawnMethod: 0
-  m_OfflineScene: RiverScene
-  m_OnlineScene: RiverScene
+  m_OfflineScene: 
+  m_OnlineScene: 
   m_SpawnPrefabs:
   - {fileID: 8057237874806424213, guid: 3930a1b2920138a408d4e77df7027f97, type: 3}
   - {fileID: 1412108268174141747, guid: 245c3560c2bc3974691dee92385a13fb, type: 3}

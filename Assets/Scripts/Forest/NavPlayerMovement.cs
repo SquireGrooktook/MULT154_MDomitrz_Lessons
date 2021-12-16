@@ -43,7 +43,7 @@ public class NavPlayerMovement : MonoBehaviour
     {
         Vector3 rot = transform.rotation.eulerAngles;
         rot.y += rotate * rotationSpeed * Time.deltaTime;
-        rgBody.MoveRotation(Quaternion.Euler(rot))
+        rgBody.MoveRotation(Quaternion.Euler(rot));
     
     rotate = 0;
 

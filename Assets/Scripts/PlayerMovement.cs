@@ -13,10 +13,8 @@ public class PlayerMovement : NetworkBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (!isLocalPlayer)
-        {
-            return;
-        }
+        if (!isLocalPlayer) return;
+
         rbPlayer = GetComponent<Rigidbody>();
         spawnPoints = GameObject.FindGameObjectsWithTag("Respawn");
     }

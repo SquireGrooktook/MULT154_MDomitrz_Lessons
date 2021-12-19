@@ -3,15 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using TMPro;
-public class Score
+
+
+[System.Serializable] public class Score
 {
-    /*
-        During the video, I noticed [System.Serializable] had replaced the "public" here at some point
-        I cannot for the life of me remember when that was changed in the videos. Maybe I missed it?
-        
-        However when I tried to change it, visual studio gave me an error. So I guess I just have to leave
-        it for now.
-    */
     public Score(string n, float t)
     {
         name = n;
@@ -20,6 +15,7 @@ public class Score
     public string name;
     public float time;
 }
+
 public class ScoreList : MonoBehaviour
 {
     public List<Score> scores = new List<Score>();
@@ -41,10 +37,12 @@ public class ScoreList : MonoBehaviour
                 {
                     try
                     {
+                        /*
                         string name = reader.ReadString();
                         float time = reader.ReadSingle();
 
                         scores.Add(new Score(name, time));
+                        */
                     }
                     catch (EndOfStreamException e)
                     {
@@ -75,7 +73,7 @@ public class ScoreList : MonoBehaviour
             GameObject temp = Instantiate(entryPrefab);
             Transform[] children = temp.GetComponentsInChildren<Transform>();
             children[1].GetComponent<TextMeshProUGUI>().text = score.name;
-            children[2].GetComponent<TextMeshProUGUI>().text = score.time.ToString("F2");
+            children[2].GetComponent<TextMeshProUGUI>().text = score.time.ToString();
 
             temp.transform.SetParent(scorePanel.transform);
             RectTransform rtrans = temp.GetComponent<RectTransform>();
